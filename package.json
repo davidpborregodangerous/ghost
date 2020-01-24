@@ -2,6 +2,7 @@
     "name": "the-dangerous-anger",
     "description": "A brief explanation of your theme",
     "version": "0.5.0",
+    "keywords":["ghost-theme"],
     "engines": {
         "ghost-api": "v3"
     },

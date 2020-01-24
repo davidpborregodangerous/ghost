@@ -5,14 +5,14 @@
 </header>
 
 <main role="main">
+  <nav>
+  {{navigation}}
+</nav>
 <ul>
   {{#foreach posts}} <!--Bucle de posts-->
     <!--Dentro del scope de post usamos sus variables-->
     <li><a href={{url}}>{{title}}</a></li>
   {{/foreach}}
 </ul>
-<nav>
-  {{navigation}}
-</nav>
 {{pagination}}
 </main>

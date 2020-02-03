@@ -18,7 +18,8 @@
         "image_sizes": {}
     },
     "dependencies": {
-        "bootstrap": "^4.4.1"
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1"
     },
     "devDependencies": {
         "gulp": "^4.0.2",

@@ -18,7 +18,11 @@ function build_css() {
 // Esto copia más JS del necesario.
 // Más adelante hablamos de Bootstrap y JS
 function mover_js() {
-    return src(['node_modules/bootstrap/dist/js/bootstrap.min.js'])
+    //return src(['node_modules/bootstrap/dist/js/bootstrap.min.js'])
+    //.pipe(dest('assets/js/'));
+    return src(
+      ['node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+       'node_modules/jquery/dist/jquery.min.js'])
     .pipe(dest('assets/js/'));
 }
 
